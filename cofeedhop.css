@@ -1,0 +1,75 @@
+.available-coffee{
+    color: black;
+    width: 300px;
+    height: 300px;
+}
+.out-of-stock{
+   
+    border-top-style: dotted;
+    border-top-width: 2px;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+    border-bottom-color: green;
+    font-size: 17px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mocha{
+    color: gray;
+}
+.in-stock{
+    background-color: green;
+}
+.div-img{
+    height: 80%;
+    width: 100%;
+}
+.img-div{
+    height: 80%;
+    width: 100%;
+}
+.pricing-table{
+    width: 100%;
+    border: 2px solid green;
+    font-family: arial black, sans-serif, Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.caption-head{
+    color: lightblue;
+}
+th{
+    background-color: lightgreen;
+    color: white;
+    height: 50px;
+    font-size: 22px;
+}
+td{
+    height: 50px;
+    font-size: 21px;
+    color: chocolate;
+}
+.tr-in-stock:hover{
+background-color: #ccffe6;
+}
+.tr-out-of-stock:hover{
+    background-color: #ffcccc;
+}
+.Frappuccino{
+    width: 100%;
+    border: 2px solid pink;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.head{
+    color: red;
+}
+.Beverages{
+    width: 100%;
+    border:2px solid black ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+.heading{
+    color: navajowhite;
+    
+}
