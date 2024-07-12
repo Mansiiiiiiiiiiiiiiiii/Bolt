@@ -5,11 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="cofeedhop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">
 </head>
 <body>
+     <h1>Coffedo☕</h1>
+    <nav>
+        <a href="img.html">Home</a>
+        <a href="#">Product</a>
+        <a href="#">Contacts</a>
+    </nav>
+    <span style="border: 2px solid red; display: block; ">Hello</span>
+    <span style="border: 2px solid green; display: block;">Coffee</span>
+    <ul class="Coffee-list">
+        <li>Espresso</li>
+        <li>Cold Brew</li>
+        <li>Cappuccino</li>
+        <li>Mocha</li>
+        <li>Iced Coffees</li>
+        <li>Lattes</li>
+        <li>Breve</li>
+    </ul>
+    <ol type="coffee-list">
+        <li>Choose the Coffee</li>
+        <li>Order the coffee</li>
+        <li>Complete the payment</li>
+        <li>Deliver the coffee</li>
+        <li>Enjoy the coffee</li>
+    </ol>
+    <dl>
+        <dt>Mocha</dt>
+        <dd>
+            a type of good quality coffee that is made from a specific coffee bean. The beans are from the plant species called Coffee Arabica, 
+            and it was originally only grown in Mocha, Yemen. It also means a mixture of coffee and chocolate, or a flavouring that tastes of 
+            this.
+        </dd>
+</dl>
+<dl>
+    <dt>Cappuccino</dt>
+    <dd>he perfect balance of espresso, steamed milk and foam. This coffee is all about the structure and the even splitting of all elements into
+         equal thirds. An expertly made cappuccino should be rich, but not acidic and have a mildly sweet flavouring from the milk.</dd>
+</dl>
     <div>
         <table class="pricing-table">
-            <caption class="caption-head"><h1>Coffee Menu</h1></caption>
+            <caption class="caption-head"><h1 class="avg">Coffee Menu</h1></caption>
             <tr>
                 <th>Coffee Menu</th>
                 <th>Price(int rs.)</th>
@@ -49,11 +89,9 @@
                 <td>₹215</td>
                 <td>in-stock</td>
             </tr>
-            
-            
         </table>
         <table class="Frappuccino">
-            <caption class="head"><h1>Beverages (Frappuccino)</h1></caption>
+            <caption class="head"><h1 class="avg">Beverages (Frappuccino)</h1></caption>
             <tr>
                 <th>Coffee Menu</th>
                 <th>Price(int rs.)</th>
@@ -83,7 +121,7 @@
             
         </table>
         <table class="Beverages">
-            <caption class="heading"><h1>Beverages (Others)</h1></caption>
+            <caption class="heading"><h1 class="avg">Beverages (Others)</h1></caption>
             <tr>
                 <th>Coffee Menu</th>
                 <th>Price(int rs.)</th>
@@ -118,11 +156,11 @@
     </div>
     <br>
         <br>
-        <div class="available-coffee out-of-stock" id="mocha">
+        <div class="available-coffee out-of-stock" id="mocha" style="display: inline-block;">
             <h4>Mocha</h4>
             <img src="mocha.png" alt="Mocha" class="div-img">
         </div>
-        <div class="available-coffee in-stock">
+        <div class="available-coffee in-stock" style="display: inline-block;">
             <h4>Cappuccino</h4>
             <img src="cappuccino.png" alt="cappuccino" class="img-div">
         </div>
