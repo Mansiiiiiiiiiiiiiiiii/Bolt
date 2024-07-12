@@ -80,3 +80,14 @@ background-color: #ccffe6;
     font-size: 20px;
     text-align: center;
 }
+h1{
+    font-family: "Playwrite PE", cursive;
+  font-optical-sizing: auto;
+  font-weight: 50%;
+  font-style: normal;
+  color: chocolate;
+  text-align: center;
+}
+.avg{
+    color: red;
+}
