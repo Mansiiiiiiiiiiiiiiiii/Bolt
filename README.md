@@ -24,7 +24,7 @@ Designed by: Mansi
 ## Usage
 
 1. Clone the repository.
-2. Open `index.html` in your web browser to explore our cafe web page.
+2. Open `img.html` in your web browser to explore our cafe web page.
 
 ## Technologies Used
 
